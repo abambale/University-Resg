@@ -1,0 +1,75 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="./submission.html" method="post">
+        <!-- text input  -->
+        <label for="name">Name</label>
+        <br>
+        <input type="text"  id="name" name="name" required />
+        <br><br>
+        <!-- text input  -->
+        <label for="School graduted from">School graduted from</label>
+        <br>
+        <input type="text"  id="School graduted from" name="School graduted from" required />
+        <br> <br>
+        <!-- text input  -->
+        <label for="Year of Graduation">Year of Graduation</label>
+        <br>
+        <input type="number"  id="Year of Graduation" name="Year of Graduation" required />
+        <br> <br>
+        <!-- text input  -->
+        <label for="Year of Start to Finish">Year of Start to Finish</label>
+        <br>
+        <input type="number"  id="Year of Start to Finish" name="Year of Start to Finish" required />
+        <br> <br>
+        <!-- Files input -->
+        <label for="WAEC Result">WAEC Resul</label>
+        <br>
+        <input type="file" id="WAEC Result" name="WAEC Result" required>
+        <br><br>
+        <!-- Files input -->
+        <label for="Certificatet">Certificatet</label>
+        <br>
+        <input type="file" id="Certificate" name="Certificate" required>
+        <br><br>
+        <!-- Files input -->
+        <label for="JAMB Result">JAMB Result        </label>
+        <br>
+        <input type="file" id="JAMB Result" name="JAMB Resultt" required>
+        <br><br>
+        <!-- email input -->
+        <label for="email">Email</label> 
+        <br>
+        <input type="email" id="email" name="email" required />
+        <br><br>
+             <!-- select input -->
+              <label for="Course you want to study"> Choose Course you want to study</label>
+
+               <select name="Courses" id="Courses">\
+                <option value="Maths">Maths</option>
+                <option value="Physics">Physics</option>
+                <option value="Biochemistry">Biochemistry</option>
+                <option value="Microbiology">Microbiology</option>
+                <option value="Architecture">Architecture</option>
+                <option value="Quantity Survey">Quantity Survey</option>
+                <option value="Civil Engineering">Civil Engineering</option>
+                <option value="Electrical Engineering">Electrical Engineering</option>
+                <option value="Mechanical Engineering">Mechanical Engineering</option>
+                <option value="Others">Others</option>
+               </select>
+               <br><br>
+               <!-- reset button -->
+          <button type="reset">Reset</button>
+          <br><br>
+
+         <!-- submit button -->
+         <button type="submit"> Submit</button>
+
+    </form>
+</body>
+</html>
